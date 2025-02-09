@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:gravity="center">
+
+    <EditText
+            android:id="@+id/editTextGuess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Arvaa luku"
+            android:inputType="number" />
+
+    <Button
+            android:id="@+id/guessButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arvaa" />
+
+    <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aloita peli"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+    <TextView
+            android:id="@+id/guessCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arvauksia: 0"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+</LinearLayout>
